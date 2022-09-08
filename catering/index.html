@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+  	<script type="text/javascript" src="fontawesome/js/all.js"></script>
+	<title>
+		Home
+	</title>
+<style>
+html{
+	scroll-behavior: smooth;
+}
+input:after{
+border:none;
+}
+.hh{padding-left:1500px}
+#contact{padding: 15px}
+.menu{display: none}
+.side-bar{
+	margin-right: 10px;
+	margin-top: 65px;
+	position: fixed;
+	border-radius: 10px;
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	z-index: 1;
+	background-color: white;
+	right: 0;
+	padding: 20px;
+	width: 60%;
+	display: none
+
+
+}
+.side-bar a:hover{
+	color: blue
+}
+.side-bar a{
+	text-decoration: none;
+	color: black;
+	margin:10px;
+	display: block;
+	border-bottom: 1px solid orange;
+	padding: 5px;
+
+}
+@media screen and (max-width:700px){
+.hi{display:none}
+.hh{padding-left:10px;}
+.menu{display: block}
+}
+</style>
+<script type="text/javascript">
+function menu(){
+	x = document.getElementById('menu');
+	if (x.style.display == 'block') {
+		x.style.display = 'none';
+	}else{
+		x.style.display = 'block'
+	}
+}
+	
+</script>
+</head>
+<body>
+<div class="w3-top w3-card-4">
+<div class="w3-bar w3-padding w3-white" style="letter-spacing:4px;">
+<a href="#" class="w3-bar-item w3-button w3-left">Gourment au cartering</a>
+<div class="w3-right menu" style="font-size: 30px;margin:0;padding: 0" onclick="menu()">
+	<i class="fa fa-bars"></i>
+</div>
+<div class="hi">
+<a href="#about" class="w3-bar-item w3-button w3-right">About</a>
+<a href="#menu" class="w3-bar-item w3-button w3-right">Menu</a>
+<a href="#contact" class="w3-bar-item w3-button w3-right">Contact</a>
+</div>
+</div>
+</div>
+<div class="side-bar" id="menu">
+		
+		<a href="#about">About</a>
+		<a href="#menu">Menu</a>
+		<a href="#contact">Contact</a>
+	</div>
+<div class="w3-display-container" style="background-image:url('pizza.jpg');background-size:cover;height:650px;background-size:100% 100%;color:black">
+<div class="w3-display-bottomleft w3-xxxlarge w3-padding" style="color: black;font-weight: bold" >
+Le Catering
+</div>
+
+</div>
+
+<div class="w3-padding-64"id="about">
+<div class=" w3-padding w3-half">
+<img src="img_restaurant.jpg" alt="img_restaurant" width="100%" height="auto" class="">
+</div>
+<div class="w3-half w3-padding-large " >
+<p  class="w3-xxlarge w3-padding w3-center"> About Catering</p>
+<p class="w3-center"style="letter-spacing:4px">Tradition since 1889</p>
+<p class=""> The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+
+<p class="w3-text-grey">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</p>
+</div>
+</div>
+<div class="w3-content " style="max-width:1100px;margin-top:440px" id="menu"> 
+<div class="w3-padding-64 w3-row " >
+<div class="w3-padding w3-col l6 hh" >
+<p id="about" class="w3-xxlarge w3-padding w3-center">Our Menu</p>
+<div>
+<h5 style="letter-spacing:5px" > Bread Basket</h5>
+<p class="w3-small w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p>
+</div>
+<div class="" style="margin-top:30px">
+<h5 style="letter-spacing:5px" > Honey Almond Granola with Fruits</h5>
+<p class="w3-small w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+</div>
+<div class="" style="margin-top:30px">
+<h5 style="letter-spacing:5px" > Belgian Waffle</h5>
+<p class="w3-small w3-text-grey">Vanilla flavored batter with malted flour 7.50</p>
+</div>
+<div class="" style="margin-top:30px">
+<h5 style="letter-spacing:5px" > Scrambled eggs</h5>
+<p class="w3-small w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+</p>
+</div>
+<div class="" style="margin-top:30px">
+<h5 style="letter-spacing:5px" > Blueberry Pancakes</h5>
+<p class="w3-small w3-text-grey">With syrup, butter and lots of berries 8.5
+
+</p>
+</div>
+</div>
+<div class=" w3-col l6" id="menu">
+<img src="The-Top-Mens-Clothing.jpg" alt="The-Top-Mens-Clothing" width="100%" height="560px">
+</div>
+</div>
+<hr>
+<div class="w3-padding-64  " style="" id="contact">
+
+<p  class="w3-xxlarge  ">Contact</p>
+<p class="w3-small"> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+<h6 class="w3-text-grey ">Catering Service, 42nd Living St, 43043 New York, NY</h6>
+<p class="w3-small">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+<input type="text" placeholder="Name" class="w3-padding-16 w3-border-0 w3-border-bottom w3-input"><br>
+<input type="number" placeholder="How many people" class="w3-padding-16 w3-border-0 w3-border-bottom w3-input"><br>
+<input type="datetime-local" placeholder="" class="w3-padding-16 w3-border-0 w3-border-bottom w3-input"><br>
+<input type="input" placeholder="Messages\Special requirement" class="w3-padding-16 w3-border-0 w3-border-bottom w3-input"><br>
+<input type="submit" value="Send Message" class="w3-button w3-light-grey"></input>
+</div>
+</div>
+<footer class="w3-light-grey">
+<p class="w3-center w3-padding-64"> Powered By Olonisakin Gbenga</p>
+</footer>
+</body>
+</html>
